@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+  font-family: "Cormorant Infant";
+  font-size: 80px;
+  color: rgb(128, 57, 0);
+  text-shadow: -5px -3px 4px rgb(255, 255, 164);
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("./images/GD_poster.png");
+  height: 100vh;
+  background-size: cover;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    ".    nav     ."
+    "title    .     ."
+    ".       .      ."
+    "";
+}
+
+.dino-musik {
+  background-image: url("./images/spot_and_arlo.jpg");
+  height: 100vh;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player p {
+  font-family: "Cormorant Infant";
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 2px 2px 7px black;
+  color: white;
+}
+
+.dino-video {
+  background-image: url("./images/spot_background.jpg");
+  height: 100vh;
+  background-size: cover;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+.video-container {
+  width: 45%;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
