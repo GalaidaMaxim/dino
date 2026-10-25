@@ -22,9 +22,16 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
     ".    nav     ."
-    "title    .     ."
-    ".       .      ."
-    "";
+    "title    .     spot"
+    "text       .      arlo"
+    "logo . arlo";
+}
+
+.spot,
+.arlo {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 10px;
 }
 
 .dino-musik {
